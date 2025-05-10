@@ -20,7 +20,7 @@ app.use('/', Routes);
 
 
 app.get('/', (req, res)=>{
-    res.send("Hello")
+    res.send("Hi, I am live")
 })
 
 app.listen(PORT , ()=>{
